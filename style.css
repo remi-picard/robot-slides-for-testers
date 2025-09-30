@@ -1,0 +1,73 @@
+/* style.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* General theme colors */
+
+:root {
+  --slidev-theme-primary: #8A2BE2;
+  --slidev-theme-background: #FFFFFF;
+  --slidev-theme-text-color: #333333;
+  --slidev-theme-headings-color: #2A9D8F;
+  --slidev-theme-code-background: #F0F8FF;
+  --slidev-theme-code-color: #B22222;
+}
+
+/* Apply fonts */
+.slidev-layout {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  color: var(--slidev-theme-headings-color);
+}
+
+/* Customizations */
+a {
+  color: #FF9800; /* Accent Orange */
+}
+
+.slidev-code {
+  background-color: var(--slidev-theme-code-background);
+  color: var(--slidev-theme-code-color);
+  border-radius: 8px;
+}
+
+/* Style for mermaid diagrams */
+.mermaid {
+  text-align: center;
+  background-color: #FAFAFA;
+  border-radius: 8px;
+  padding: 5px 0;
+  margin: 0.5rem auto;
+}
+
+footer #page {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.75rem;
+}
+
+footer #title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 0.75rem;
+}
+footer .logo {
+  position: relative;
+  bottom: 1px;
+  height: 24px;
+  display: inline;
+}
+
+#me {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  width: 175px;
+}

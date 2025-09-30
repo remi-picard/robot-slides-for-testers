@@ -1,0 +1,16 @@
+{
+  "name": "robot-framework-slides",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --download true",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.0",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.55.0"
+  }
+}
