@@ -1,0 +1,1 @@
+.robot-progress-container{position:fixed;bottom:20px;width:25px;height:25px;z-index:1000;transition:left 1s ease-in-out}.robot{animation:spin 1s linear infinite;width:25px;height:25px}@keyframes spin{0%{transform:rotate(-360deg)}to{transform:rotate(0)}}
