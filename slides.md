@@ -844,7 +844,7 @@ Ralentir Browser
 - CSS (class selector => `.todo-list`)
 - [CSS Selector Reference](https://www.w3schools.com/cssref/css_selectors.php)
 - [CSS Selector Tester](https://www.w3schools.com/cssref/trysel.php)
-- XPATH (`//*[@id="todo-input"])
+- XPATH (`//*[@id="todo-input"]`)
 - [XPath Syntax](https://www.w3schools.com/xml/xpath_syntax.asp)
 
 </v-clicks>
@@ -1728,15 +1728,24 @@ layout: center
 
 ## Tag
 
+<v-clicks>
+
 - Les tests peuvent être taggués
 - Options CLI `--include` / `--exclude` pour filtrer
 - Stats par tag
+
+</v-clicks>
 
 ---
 
 ## Log
 
+<v-clicks>
+
 - Ne pas TROP logguer
+- Logguer du HTML (tableau) `Log  html=${True}`
+
+</v-clicks>
 
 ---
 
@@ -1823,7 +1832,6 @@ layout: center
 <v-clicks>
 
 - Utiliser ou Builder une image Docker
-
 - [Docker Images for Robot Framework](https://docs.robotframework.org/docs/using_rf_in_ci_systems/docker)
 
 </v-clicks>
@@ -1885,11 +1893,15 @@ layout: center
 ## Tests quotidiens
 ### Outils de Reporting
 
+<v-clicks>
+
 - [Allure](https://docs.robotframework.org/docs/reporting_test_results/allure)
 - [Report Portal](https://docs.robotframework.org/docs/reporting_test_results/report_portal)
 - [Grafana](https://docs.robotframework.org/docs/reporting_test_results/grafana)
 - [Robot Framework Metrics](https://docs.robotframework.org/docs/reporting_test_results/robot_framework_metrics)
 - [Robot Framework Dashboard](https://docs.robotframework.org/docs/reporting_test_results/robot_framework_dashboard)
+
+</v-clicks>
 
 ---
 
@@ -2100,7 +2112,7 @@ mindmap
             *.robot
         *.robot
     resources/
-        *.resources
+        *.resource
         *.py
     requirements.txt
 ```
