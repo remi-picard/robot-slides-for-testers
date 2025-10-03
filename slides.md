@@ -877,6 +877,19 @@ Ralentir Browser
 </v-clicks>
 
 ---
+
+## Récupérer un champ HTML
+
+<v-clicks>
+
+- `${element}    Get Element    css=.new-todo`
+- `${element}    Get Element    id=todo-input`
+- `${element}    Get Element    text=todos`
+- `${element}    Get Element    xpath=//*h1`
+
+</v-clicks>
+
+---
 layout: center
 ---
 
