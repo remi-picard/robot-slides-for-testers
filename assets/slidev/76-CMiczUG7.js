@@ -1,0 +1,12 @@
+import{_ as g}from"./CodeBlockWrapper-C89jEJ_J.js";import{I as h}from"../default-BzMfYyIv.js";import{b as v,b2 as p}from"../index-C9DM9YGW.js";import{p as u,u as c,f as S}from"./context-zlILTBVV.js";import{b as $,o as k,w as d,g as e,e as x,m as b,a0 as s,v as B,x as C}from"../modules/vue-4mDv654O.js";import"../modules/unplugin-icons-IIIzr7mw.js";import"./index-ZkX9RYjB.js";import"../modules/shiki-Cs_zAk09.js";const P={__name:"76",setup(m,{expose:n}){n(),u(p);const{$slidev:r,$nav:t,$clicksContext:l,$clicks:o,$page:a,$renderContext:f,$frontmatter:_}=c(),i={$slidev:r,$nav:t,$clicksContext:l,$clicks:o,$page:a,$renderContext:f,$frontmatter:_,InjectedLayout:h,get frontmatter(){return p},get useSlideContext(){return c},get _provideFrontmatter(){return u},get _frontmatterToProps(){return S}};return Object.defineProperty(i,"__isScriptSetup",{enumerable:!1,value:!0}),i}};function T(m,n,r,t,l,o){const a=g;return k(),$(t.InjectedLayout,B(C(t._frontmatterToProps(t.frontmatter,75))),{default:d(()=>[n[1]||(n[1]=e("h2",null,"BuiltIn",-1)),x(a,b({},{ranges:["1-8","1-2,10-","all"]}),{default:d(()=>[...n[0]||(n[0]=[e("pre",{class:"shiki shiki-themes vitesse-dark vitesse-light slidev-code",style:{"--shiki-dark":"#dbd7caee","--shiki-light":"#393a34","--shiki-dark-bg":"#121212","--shiki-light-bg":"#ffffff"}},[e("code",{class:"language-text"},[e("span",{class:"line"},[e("span",null,"*** Test Cases ***")]),s(`
+`),e("span",{class:"line"},[e("span",null,"Some Assertions")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    ${var}=    Set Variable    1.0")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Not Be Equal    1    ${var}")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Be Equal As Numbers    1    ${var}")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Be Equal As Strings    1.0    ${var}")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Be True    ${var} == 1.0")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Not Be True    ${var} > 10")]),s(`
+`),e("span",{class:"line"},[e("span")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    ${string}=    Set Variable    My String")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Should Start With    ${string}    My")]),s(`
+`),e("span",{class:"line"},[e("span",null,"    Length Should Be    ${string}    9")])])],-1)])]),_:1},16)]),_:1},16)}const L=v(P,[["render",T],["__file","/@slidev/slides/76.md"]]);export{L as default};
